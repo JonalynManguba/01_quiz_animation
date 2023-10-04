@@ -1,0 +1,31 @@
+body {
+    background: #1493E6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+
+/* Add some padding for better spacing */
+
+.container-sm {
+    padding: 20px;
+}
+
+.animate__flash .animate_fadeOutUp {
+    --animate-duration: 20s;
+    --animation-delay: 10s;
+}
+
+
+/*Animanation headline*/
+
+.animate__animated .animate__fadeInLeftBig {
+    --animate-duration: 5s;
+}
+
+.headline {
+    margin-top: -150px;
+}
