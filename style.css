@@ -1,6 +1,6 @@
 body {
     background: #1493E6;
-    display: flex;
+    display: absolute;
     justify-content: center;
     align-items: center;
     height: 100vh;
@@ -10,22 +10,36 @@ body {
 
 /* Add some padding for better spacing */
 
-.container-sm {
-    padding: 20px;
+.
+/* Center all items within .container */
+
+.container-fluid {
+    display: absolute;
+    align-items: center;
+    /* Center both horizontally and vertically */
+    min-height: 100vh;
+    /* Minimum height to occupy the full viewport */
+    overflow: hidden;
 }
 
-.animate__flash .animate_fadeOutUp {
-    --animate-duration: 20s;
-    --animation-delay: 10s;
+#femaleImage {
+    margin-top: 0rem;
+    margin-bottom: -1rem;
 }
 
-
-/*Animanation headline*/
-
-.animate__animated .animate__fadeInLeftBig {
-    --animate-duration: 5s;
+img {
+    max-width: 500px;
 }
 
-.headline {
-    margin-top: -150px;
+#sub {
+    margin-top: -22rem;
+    margin-left: -5rem;
+}
+
+#headline1 {
+    margin-top: -10rem;
+}
+
+#headline2 {
+    margin-top: -14rem;
 }
